@@ -10,7 +10,68 @@
 </head>
 
 <body>
-  <div class="container"></div>
+  <div class="container">
+    <div class="form-wrapper">
+      <h1>Sign Up</h1>
+      <form action="#">
+        <!-- .col-2 class sets two columns -->
+        <div class="col-2">
+          <!-- form group class wraps around all inputs (labels too) -->
+          <div class="form-group">
+            <!-- first name -->
+            <input type="text" name="f_name" placeholder="First Name" autocomplete="given-name" class="form-input ">
+          </div>
+          <div class="form-group">
+            <!-- last name -->
+            <input type="text" name="l_name" placeholder="Last Name" autocomplete="family-name" class="form-input">
+          </div>
+        </div>
+        <div class="form-group">
+          <!-- phone number -->
+          <input type="tel" name="phone_number" placeholder="Mobile No." autocomplete="tel" class="form-input">
+        </div>
+        <div class="form-group">
+          <!-- email -->
+          <input type="email" name="email" placeholder="Email Address" autocomplete="email" class="form-input">
+        </div>
+        <div class="col-2">
+          <div class="form-group">
+            <!-- new password -->
+            <input type="password" name="new_password" autocomplete="new-password" placeholder="Password"
+              class="form-input">
+          </div>
+          <div class="form-group">
+            <!-- confirm password -->
+            <input type="password" name="confirm_password" autocomplete="new-password" placeholder="Confirm Password"
+              class="form-input">
+          </div>
+        </div>
+        <div class="agreement">
+          <div class="form-group">
+            <!-- the checkbox -->
+            <input type="checkbox" name="terms-agreement" id="check-box">
+            <!-- checkbox label -->
+            <label for="check-box">I Agree</label>
+          </div>
+          <p>By clicking
+            <!-- btn-register-reference -->
+            <button type="button" class="btn btn-register btn-register-ref">Register</button>,
+            you agree to the
+            <a href="#" class="terms">Terms and Conditions</a>
+            set out by this site including our Cookie Use.
+          </p>
+        </div>
+        <!-- form buttons -->
+        <!-- add buttons type="button" to prevent submiting -->
+        <div class="form-btns col-2">
+          <!-- register button -->
+          <button class="btn btn-register" type="button">Register</button>
+          <!-- sign button -->
+          <button class="btn btn-sign-in" type="button">Sign In</button>
+        </div>
+      </form>
+    </div>
+  </div>
 </body>
 
 </html>
