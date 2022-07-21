@@ -64,3 +64,28 @@ body {
 .form-group .form-input:active {
 	box-shadow: 0 0 5px 0px var(--primary-clr);
 }
+
+.agreement {
+	display: flex;
+	padding-bottom: 0.2em;
+}
+
+.agreement .form-group {
+	flex: 1;
+	padding: 0;
+}
+
+.agreement .form-group label {
+	font-size: 0.9em;
+	font-weight: bold;
+}
+
+.agreement p {
+	flex: 8;
+	font-size: 0.8em;
+	word-wrap: break-word;
+}
+
+.agreement .terms {
+	color: var(--primary-clr);
+}
