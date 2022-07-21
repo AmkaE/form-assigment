@@ -89,3 +89,30 @@ body {
 .agreement .terms {
 	color: var(--primary-clr);
 }
+
+.form-btns {
+	gap: 0.5em;
+}
+
+.btn {
+	padding: 0.5em 0.7em;
+	text-align: center;
+	color: #fff;
+	border-radius: 5px;
+	border: none;
+	font-size: 1em;
+	cursor: pointer;
+}
+
+.btn-register {
+	background: var(--primary-clr);
+}
+
+.btn-sign-in {
+	background: var(--secondary-clr);
+}
+
+/* btn-register-reference */
+.btn-register-ref {
+	padding: 0.2em 0.4em;
+}
