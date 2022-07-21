@@ -116,3 +116,24 @@ body {
 .btn-register-ref {
 	padding: 0.2em 0.4em;
 }
+
+@media screen and (max-width: 768px) {
+	.col-2 {
+		grid-template-columns: 1fr;
+		gap: 0;
+	}
+
+	.form-btns.col-2 {
+		gap: 0.5em;
+	}
+
+	.agreement p {
+		flex: 4;
+	}
+}
+
+@media screen and (max-width: 380px) {
+	.agreement p {
+		flex: 3;
+	}
+}
