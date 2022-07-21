@@ -1,0 +1,28 @@
+/* variables */
+:root {
+	--primary-clr: #428bca;
+	--secondary-clr: #5cb85c;
+}
+
+/* basic resets */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	line-height: 1.6;
+	font-family: sans-serif;
+}
+
+/* utility classes */
+.col-2 {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 1em;
+}
