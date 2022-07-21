@@ -46,3 +46,21 @@ body {
 .form-group {
 	padding-bottom: 1em;
 }
+
+.form-group {
+	padding-bottom: 1em;
+}
+
+.form-group .form-input {
+	width: 100%;
+	padding: 0.5em 0.7em;
+	border-radius: 5px;
+	border: 1px solid grey;
+	outline: none;
+	font-size: 1em;
+}
+
+.form-group .form-input:focus,
+.form-group .form-input:active {
+	box-shadow: 0 0 5px 0px var(--primary-clr);
+}
